@@ -12,6 +12,12 @@ html {
   height: 100%;
 }
 
+h2 {
+  font-family: 'Oswald';
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /*Nav Bar*/
 
 nav {
@@ -53,7 +59,7 @@ nav {
 }
 
 .navbar-right li a:hover {
-    color: #4BAFFF;
+    color: #FFB7C5;
 }
 
 /*Landing*/
@@ -63,7 +69,67 @@ nav {
   height: 600px;
   margin: 0% 0% 0% 0%;
   width: 100%;
-  background: url('/images/landing-writing-tdh.png') center center no-repeat;
+  background: url('/images/landing-writing-tdh.png') no-repeat;
+  background-position: center 60%;
+}
+
+/*Gallery*/
+
+
+.gallery {
+  height:400px;
+  width:100%;
+  background-color: #999;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.box {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width:400px;
+    height: 400px;
+}
+
+.box a{
+  text-decoration: none;
+  color: #050505;
+}
+
+.box a:hover{
+  color: #FFB7C5;
+}
+
+.accint-box-container {
+}
+
+.accint-box {
+  background: url('/images/accint-pic.png') no-repeat;
+  background-position: center 35%;
+}
+
+.accint-text {
+  padding-top: 260px;
+}
+
+.gdn-box {
+  background: url('/images/gdn-pic.png') no-repeat;
+  background-position: center 35%;
+}
+
+.gdn-text {
+  padding-top: 260px;
+}
+
+.weekynder-box {
+  background: url('/images/weekynder-pic.png') no-repeat;
+  background-position: center 35%;
+}
+
+.weekynder-text {
+  padding-top: 260px;
 }
 
 /*Footer*/
