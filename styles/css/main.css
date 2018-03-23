@@ -89,7 +89,7 @@ nav {
 ::-webkit-scrollbar-thumb {
 
     border-radius: 4px;
-    background-color: rgba(0,0,0,.5);
+    background-color: #FFB7C5;
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
@@ -124,29 +124,14 @@ nav {
 
 .accint-box {
   background: url('/images/accint-pic.png') no-repeat;
-  background-position: center 35%;
-}
-
-.accint-text {
-  padding-top: 260px;
 }
 
 .gdn-box {
   background: url('/images/gdn-pic.png') no-repeat;
-  background-position: center 35%;
-}
-
-.gdn-text {
-  padding-top: 260px;
 }
 
 .weekynder-box {
   background: url('/images/weekynder-pic.png') no-repeat;
-  background-position: center 35%;
-}
-
-.weekynder-text {
-  padding-top: 260px;
 }
 
 /*Footer*/
@@ -236,6 +221,30 @@ nav {
       width:250px;
   }
 
+  .accint-box {
+    background-position: center 45%;
+  }
+
+  .gdn-box {
+    background-position: center 45%;
+  }
+
+  .weekynder-box {
+    background-position: center 45%;
+  }
+
+  .accint-text {
+    padding-top: 280px;
+  }
+
+  .gdn-text {
+    padding-top: 280px;
+  }
+
+  .weekynder-text {
+    padding-top: 280px;
+  }
+
   .contact-email-text {
     margin-left: 40%;
   }
@@ -271,6 +280,30 @@ nav {
 
   .box {
       width:400px;
+  }
+
+  .accint-box {
+    background-position: center 40%;
+  }
+
+  .gdn-box {
+    background-position: center 40%;
+  }
+
+  .weekynder-box {
+    background-position: center 40%;
+  }
+
+  .accint-text {
+    padding-top: 280px;
+  }
+
+  .gdn-text {
+    padding-top: 280px;
+  }
+
+  .weekynder-text {
+    padding-top: 280px;
   }
 
   .contact-email-text {
