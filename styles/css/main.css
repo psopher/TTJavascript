@@ -14,8 +14,12 @@ html {
 
 h2 {
   font-family: 'Oswald';
-  font-size: 24px;
   font-weight: bold;
+}
+
+p1 {
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
 /*Nav Bar*/
@@ -62,6 +66,7 @@ nav {
     color: #FFB7C5;
 }
 
+
 /*Landing*/
 
 .landing {
@@ -69,8 +74,6 @@ nav {
   height: 600px;
   margin: 0% 0% 0% 0%;
   width: 100%;
-  background: url('/images/landing-writing-tdh.png') no-repeat;
-  background-position: center 60%;
 }
 
 /*Gallery*/
@@ -89,7 +92,6 @@ nav {
     color: black;
     text-align: center;
     text-decoration: none;
-    width:400px;
     height: 400px;
 }
 
@@ -154,7 +156,6 @@ nav {
   float: left;
   margin-top: 75px;
   margin-bottom: 10px;
-  margin-left: 45%;
   color: #F5F5F5;
   width: 150px;
 }
@@ -162,7 +163,6 @@ nav {
 .social-nav {
   padding: 15px 0px;
   width: 150px;
-  margin-left: 45%;
 }
 
 .social-nav li {
@@ -171,4 +171,131 @@ nav {
   float:left;
   margin: 0px 10px 0px 0px;
   align-items: left;
+}
+
+
+/*About Us*/
+
+.about-landing {
+  float: left;
+}
+
+.faq li {
+  list-style-type: none;
+  margin: 0px 10px 0px 0px;
+  align-items: left;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin-left: 50px;
+
+  /* Needs prefixing */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/*Sizing*/
+
+/*Mobile*/
+
+@media screen and (min-width: 0px){
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p1 {
+    font-size: 14px;
+  }
+
+  .landing {
+    background: url('/images/landing-writing-m.png') no-repeat;
+    background-position: center 60%;
+  }
+
+  .box {
+      width:250px;
+  }
+
+  .contact-email-text {
+    margin-left: 40%;
+  }
+
+  .social-nav {
+    margin-left: 40%;
+  }
+
+  .about-landing {
+    margin: 50px 0px 100px 0px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 501px){
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p1 {
+    font-size: 18px;
+  }
+
+  .landing {
+    background: url('/images/landing-writing-tdh.png') no-repeat;
+    background-position: center 60%;
+  }
+
+  .box {
+      width:400px;
+  }
+
+  .contact-email-text {
+    margin-left: 45%;
+  }
+
+  .social-nav {
+    margin-left: 45%;
+  }
+
+  .about-landing {
+    margin: 50px 0px 150px 20px;
+    width: 100%;
+    max-width: 450px;
+  }
+
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 850px){
+
+  .about-landing {
+    margin: 50px 0px 150px 60px;
+    width: 100%;
+    max-width: 650px;
+  }
+}
+
+/*Desktop HD*/
+
+@media screen and (min-width: 1200px){
+
+  .box {
+      width: 33%;
+  }
+
+  .about-landing {
+    margin: 50px 0px 150px 100px;
+    width: 100%;
+    max-width: 650px;
+  }
 }
